@@ -1,0 +1,151 @@
+
+
+.container{
+    margin-top: 60px;
+}
+.client-logo{
+    width: 230px;
+    margin: auto;
+}
+
+.card-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    margin-top: 40px;
+    padding-bottom: 35px;
+}
+
+.card{
+    width: 300px;
+    height: 170px;
+    background: #ececec;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.card-inner-container{
+    height: 100%;
+    width: 100%;  
+}
+
+.card-head{
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px; 
+    font-weight: 800;
+    color: #555555;
+    height: 40px;
+    font-family: "Rota-Bold";
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    height: -moz-calc(100% - (20px + 20px));
+    height: -webkit-calc(100% - (20px + 20px));
+    height: calc(100% - (20px + 20px));
+    margin-top: 10px;
+}
+
+.card-left-item{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left-circle{
+    width: 120px;
+    height: 120px;
+    background: #6DD0A5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: white;
+    font-weight: 700;
+}
+.degreeSymbol{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 18px;
+    margin-left: 5px;
+}
+.card-right-item{
+    width: 50%;
+}
+.card-right-item-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card-body-numberText{
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 8px;
+    color: #999999;
+}
+
+.text-hr-line{
+    opacity: 0.5;
+}
+
+
+/* Audio lighting css */
+.audio-lighting-card-body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: -moz-calc(100% - (20px + 20px));
+    height: -webkit-calc(100% - (20px + 20px));
+    height: calc(100% - (20px + 20px));
+    margin-top: 10px;
+}
+
+.audio-lighting-card-body-left-number{
+    font-size: 80px;
+    font-weight: 800;
+    color: #5448C8;
+}
+.audio-lighting-btn-container{
+    height: 84px;
+}
+
+.audio-lighting-playing-button{
+    width: auto;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #6DD0A5;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 2px 10px;
+}
+
+.audio-lighting-right-text{
+    height: 78px;
+    margin-left: 20px;
+}
+
+.audio-lighting-total{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+.audio-lighting-count{
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: #707070;
+}

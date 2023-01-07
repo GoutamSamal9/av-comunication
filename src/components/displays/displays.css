@@ -1,0 +1,47 @@
+
+.displays-card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: -moz-calc(100% - (20px + 20px));
+    height: -webkit-calc(100% - (20px + 20px));
+    height: calc(100% - (20px + 20px));
+    margin-top: 10px;
+}
+
+.displays-card-body-left-number{
+    font-size: 80px;
+    font-weight: 800;
+    color: #5448C8;
+}
+
+.display-card-extra-divided-number{
+    font-size: 25px;
+}
+
+.displays-right-text{
+    height: 78px;
+}
+
+.displays-total{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #999999;
+}
+
+
+.displays-count{
+    display: block;
+    font-size: 35px;
+    font-weight: 800;
+    color: #707070;
+}
+
+.display-vr{
+    width: 1px;
+    height: 65px;
+    background: #999999;
+    margin-bottom: 24px;
+    opacity: 0.5;
+}
